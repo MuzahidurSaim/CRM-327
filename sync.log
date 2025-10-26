@@ -1,0 +1,26 @@
+[2025-10-26 23:02:05] [RUN] git checkout main
+[2025-10-26 23:02:05] M	README.md
+[2025-10-26 23:02:05] Your branch is up to date with 'origin/main'.
+[2025-10-26 23:02:05] Already on 'main'
+[2025-10-26 23:02:05] [RUN] git pull origin main
+[2025-10-26 23:02:05] error: cannot pull with rebase: You have unstaged changes.
+[2025-10-26 23:02:05] error: Please commit or stash them.
+[2025-10-26 23:02:25] [RUN] git checkout -b initial_PRD
+[2025-10-26 23:02:25] Switched to a new branch 'initial_PRD'
+🔄 Syncing 'initial_PRD' with latest main...
+[2025-10-26 23:02:25] [RUN] git fetch origin
+[2025-10-26 23:02:30] [RUN] git merge origin/main
+[2025-10-26 23:02:30] Already up to date.
+[2025-10-26 23:02:30] [RUN] git status
+[2025-10-26 23:02:30] On branch initial_PRD
+[2025-10-26 23:02:30] Changes not staged for commit:
+[2025-10-26 23:02:30]   (use "git add <file>..." to update what will be committed)
+[2025-10-26 23:02:30]   (use "git restore <file>..." to discard changes in working directory)
+[2025-10-26 23:02:30] 	modified:   README.md
+[2025-10-26 23:02:30] 
+[2025-10-26 23:02:30] Untracked files:
+[2025-10-26 23:02:30]   (use "git add <file>..." to include in what will be committed)
+[2025-10-26 23:02:30] 	sync.log
+[2025-10-26 23:02:30] 
+[2025-10-26 23:02:30] no changes added to commit (use "git add" and/or "git commit -a")
+[2025-10-26 23:02:34] [RUN] git add .
