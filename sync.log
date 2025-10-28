@@ -24,3 +24,73 @@
 [2025-10-26 23:02:30] 
 [2025-10-26 23:02:30] no changes added to commit (use "git add" and/or "git commit -a")
 [2025-10-26 23:02:34] [RUN] git add .
+[2025-10-26 23:02:34] warning: in the working copy of 'sync.log', LF will be replaced by CRLF the next time Git touches it
+[2025-10-26 23:03:35] [RUN] git commit -m adding the "PRD" -m This is just the initial "PRD", might have to change after any suggestions of the faculty.
+[2025-10-26 23:03:35] [initial_PRD 9960183] adding the "PRD"
+[2025-10-26 23:03:35]  2 files changed, 129 insertions(+), 1 deletion(-)
+[2025-10-26 23:03:35]  create mode 100644 sync.log
+[2025-10-26 23:03:39] [RUN] git push -u origin initial_PRD
+[2025-10-26 23:03:39] remote: 
+[2025-10-26 23:03:39] remote: Create a pull request for 'initial_PRD' on GitHub by visiting:        
+[2025-10-26 23:03:39] remote:      https://github.com/MuzahidurSaim/CRM-327/pull/new/initial_PRD        
+[2025-10-26 23:03:39] remote: 
+[2025-10-26 23:03:39] branch 'initial_PRD' set up to track 'origin/initial_PRD'.
+[2025-10-26 23:03:39] To https://github.com/MuzahidurSaim/CRM-327
+[2025-10-26 23:03:39]  * [new branch]      initial_PRD -> initial_PRD
+👉 Now open a Pull Request on GitHub for branch 'initial_PRD' into main.
+Repo: ./CRM-327
+Branch: initial_PRD
+Last commit: 9960183 - adding the "PRD" (10 seconds ago) <MuzahidurSaim>
+
+[2025-10-28 00:05:12] [RUN] git checkout main
+[2025-10-28 00:05:12] error: Your local changes to the following files would be overwritten by checkout:
+[2025-10-28 00:05:12] 	sync.log
+[2025-10-28 00:05:12] Please commit your changes or stash them before you switch branches.
+[2025-10-28 00:05:12] Aborting
+[2025-10-28 00:05:12] [RUN] git pull origin main
+[2025-10-28 00:05:12] error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 00:05:12] error: Please commit or stash them.
+👋 Exiting script as requested.
+[2025-10-28 21:56:50] [RUN] git checkout main
+[2025-10-28 21:56:50] error: Your local changes to the following files would be overwritten by checkout:
+[2025-10-28 21:56:50] 	README.md
+[2025-10-28 21:56:50] 	sync.log
+[2025-10-28 21:56:50] Please commit your changes or stash them before you switch branches.
+[2025-10-28 21:56:50] Aborting
+[2025-10-28 21:56:51] [RUN] git pull origin main
+[2025-10-28 21:56:51] error: cannot pull with rebase: You have unstaged changes.
+[2025-10-28 21:56:51] error: Please commit or stash them.
+👋 Exiting script as requested.
+[2025-10-29 00:31:25] [RUN] git checkout main
+[2025-10-29 00:31:25] error: Your local changes to the following files would be overwritten by checkout:
+[2025-10-29 00:31:25] 	README.md
+[2025-10-29 00:31:25] 	sync.log
+[2025-10-29 00:31:25] Please commit your changes or stash them before you switch branches.
+[2025-10-29 00:31:25] Aborting
+[2025-10-29 00:31:25] [RUN] git pull origin main
+[2025-10-29 00:31:25] error: cannot pull with rebase: You have unstaged changes.
+[2025-10-29 00:31:25] error: Please commit or stash them.
+[2025-10-29 00:31:46] [RUN] git checkout -b repo_initialization
+[2025-10-29 00:31:46] Switched to a new branch 'repo_initialization'
+🔄 Syncing 'repo_initialization' with latest main...
+[2025-10-29 00:31:47] [RUN] git fetch origin
+[2025-10-29 00:31:47] From https://github.com/MuzahidurSaim/CRM-327
+[2025-10-29 00:31:47]    0c6f536..328a237  main       -> origin/main
+[2025-10-29 00:31:52] [RUN] git merge origin/main
+[2025-10-29 00:31:52] Updating 9960183..328a237
+[2025-10-29 00:31:52] Fast-forward
+[2025-10-29 00:31:52] [RUN] git status
+[2025-10-29 00:31:52] On branch repo_initialization
+[2025-10-29 00:31:52] Changes not staged for commit:
+[2025-10-29 00:31:52]   (use "git add <file>..." to update what will be committed)
+[2025-10-29 00:31:52]   (use "git restore <file>..." to discard changes in working directory)
+[2025-10-29 00:31:52] 	modified:   README.md
+[2025-10-29 00:31:52] 	modified:   sync.log
+[2025-10-29 00:31:52] 
+[2025-10-29 00:31:52] Untracked files:
+[2025-10-29 00:31:52]   (use "git add <file>..." to include in what will be committed)
+[2025-10-29 00:31:52] 	crm-backend/
+[2025-10-29 00:31:52] 	crm-frontend/
+[2025-10-29 00:31:52] 
+[2025-10-29 00:31:52] no changes added to commit (use "git add" and/or "git commit -a")
+[2025-10-29 00:31:56] [RUN] git add .
