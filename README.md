@@ -6,11 +6,11 @@
 
 ## Product Requirements Document (PRD)
 
-| Metadata | Details |
-|----------|---------|
+| Metadata      | Details                                                    |
+|---------------|------------------------------------------------------------|
 | Project Title | Multi-Tenant Customer Relationship Management (CRM) System |
-| Team | Stratus |
-| Date | 27 October 2025 |
+| Team          | Stratus                                                    |
+| Date          | 27 October 2025                                            |
 
 ---
 
@@ -90,14 +90,14 @@ This CRM project introduces modern software engineering practices, including mul
 
 ### Phase 1: Foundation (27 Oct – 10 Nov 2025)
 
-| Week | Dates | Focus Area | Deliverables |
-|------|-------|------------|-------------|
-| 1 | 27 Oct – 2 Nov | Core Platform | - Database schema implementation<br>- CRUD APIs development<br>- JWT authentication<br>- Multi-tenant logic<br>- React frontend (login, customer list)<br>- Search functionality |
-| 2 | 3 Nov – 10 Nov | Integrations | - Third-party integrations (Gmail, Calendar, Telegram)<br>- Phone transcript integration<br>- Issue tracking integration<br>- Direct call feature<br>- Testing suite<br>- Docker containerization<br>- Android MVP |
+| Week | Dates          | Focus Area    | Deliverables                                                                                                                                                                                                       |
+|------|----------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1    | 27 Oct – 2 Nov | Core Platform | - Database schema implementation<br>- CRUD APIs development<br>- JWT authentication<br>- Multi-tenant logic<br>- React frontend (login, customer list)<br>- Search functionality                                   |
+| 2    | 3 Nov – 10 Nov | Integrations  | - Third-party integrations (Gmail, Calendar, Telegram)<br>- Phone transcript integration<br>- Issue tracking integration<br>- Direct call feature<br>- Testing suite<br>- Docker containerization<br>- Android MVP |
 
 ### Phase 2: AI Enhancement (10 Nov – 24 Nov 2025)
 
-| Week | Dates | Focus Area | Deliverables |
-|------|-------|------------|-------------|
-| 3 | 10 Nov – 16 Nov | AI & Voice | - Conversational AI assistant integration<br>- Natural language query system<br>- Voice features implementation<br>- Conversation flow testing |
-| 4 | 17 Nov – 24 Nov | Automation | - Auto-updating pipeline development<br>- AI orchestration refinement<br>- UI/UX improvements<br>- E2E testing<br>- Documentation and final demo |
+| Week | Dates           | Focus Area | Deliverables                                                                                                                                     |
+|------|-----------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 3    | 10 Nov – 16 Nov | AI & Voice | - Conversational AI assistant integration<br>- Natural language query system<br>- Voice features implementation<br>- Conversation flow testing   |
+| 4    | 17 Nov – 24 Nov | Automation | - Auto-updating pipeline development<br>- AI orchestration refinement<br>- UI/UX improvements<br>- E2E testing<br>- Documentation and final demo |
