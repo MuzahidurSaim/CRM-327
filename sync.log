@@ -94,3 +94,102 @@ Last commit: 9960183 - adding the "PRD" (10 seconds ago) <MuzahidurSaim>
 [2025-10-29 00:31:52] 
 [2025-10-29 00:31:52] no changes added to commit (use "git add" and/or "git commit -a")
 [2025-10-29 00:31:56] [RUN] git add .
+[2025-11-03 20:14:49] [RUN] git checkout main
+[2025-11-03 20:14:49] M	sync.log
+[2025-11-03 20:14:49] Your branch is up to date with 'origin/main'.
+[2025-11-03 20:14:49] Already on 'main'
+[2025-11-03 20:14:49] [RUN] git pull origin main
+[2025-11-03 20:14:49] error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 20:14:49] error: Please commit or stash them.
+👋 Exiting script as requested.
+[2025-11-03 20:37:44] [RUN] git checkout main
+[2025-11-03 20:37:44] M	sync.log
+[2025-11-03 20:37:44] Your branch is up to date with 'origin/main'.
+[2025-11-03 20:37:44] Already on 'main'
+[2025-11-03 20:37:45] [RUN] git pull origin main
+[2025-11-03 20:37:45] error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 20:37:45] error: Please commit or stash them.
+👋 Exiting script as requested.
+[2025-11-03 22:15:30] [RUN] git checkout main
+[2025-11-03 22:15:30] M	sync.log
+[2025-11-03 22:15:30] Your branch is up to date with 'origin/main'.
+[2025-11-03 22:15:30] Already on 'main'
+[2025-11-03 22:15:31] [RUN] git pull origin main
+[2025-11-03 22:15:31] error: cannot pull with rebase: You have unstaged changes.
+[2025-11-03 22:15:31] error: Please commit or stash them.
+👋 Exiting script as requested.
+[2025-11-04 06:27:44] [RUN] git checkout main
+[2025-11-04 06:27:44] M	crm-backend/.gitattributes
+[2025-11-04 06:27:44] M	crm-backend/.gitignore
+[2025-11-04 06:27:44] M	crm-backend/.mvn/wrapper/maven-wrapper.properties
+[2025-11-04 06:27:44] M	crm-backend/mvnw.cmd
+[2025-11-04 06:27:44] M	crm-backend/pom.xml
+[2025-11-04 06:27:44] M	crm-backend/src/main/java/com/crm/CrmBackendApplication.java
+[2025-11-04 06:27:44] A	crm-backend/src/main/java/com/crm/config/SecurityConfig.java
+[2025-11-04 06:27:44] A	crm-backend/src/main/java/com/crm/config/WebConfig.java
+[2025-11-04 06:27:44] A	crm-backend/src/main/java/com/crm/controller/HelloController.java
+[2025-11-04 06:27:44] M	crm-backend/src/main/resources/application.properties
+[2025-11-04 06:27:44] M	crm-backend/src/test/java/com/crm/CrmBackendApplicationTests.java
+[2025-11-04 06:27:44] M	crm-frontend/.gitignore
+[2025-11-04 06:27:44] M	crm-frontend/README.md
+[2025-11-04 06:27:44] M	crm-frontend/package-lock.json
+[2025-11-04 06:27:44] M	crm-frontend/package.json
+[2025-11-04 06:27:44] M	crm-frontend/public/index.html
+[2025-11-04 06:27:44] M	crm-frontend/public/manifest.json
+[2025-11-04 06:27:44] M	crm-frontend/public/robots.txt
+[2025-11-04 06:27:44] M	crm-frontend/src/App.css
+[2025-11-04 06:27:44] M	crm-frontend/src/App.js
+[2025-11-04 06:27:44] M	crm-frontend/src/App.test.js
+[2025-11-04 06:27:44] M	crm-frontend/src/index.css
+[2025-11-04 06:27:44] M	crm-frontend/src/index.js
+[2025-11-04 06:27:44] M	crm-frontend/src/reportWebVitals.js
+[2025-11-04 06:27:44] M	crm-frontend/src/setupTests.js
+[2025-11-04 06:27:44] M	sync.log
+[2025-11-04 06:27:44] Your branch is up to date with 'origin/main'.
+[2025-11-04 06:27:44] Already on 'main'
+[2025-11-04 06:27:46] [RUN] git pull origin main
+[2025-11-04 06:27:46] error: cannot pull with rebase: You have unstaged changes.
+[2025-11-04 06:27:46] error: additionally, your index contains uncommitted changes.
+[2025-11-04 06:27:46] error: Please commit or stash them.
+[2025-11-04 06:28:53] [RUN] git checkout -b backend_frontend_connection
+[2025-11-04 06:28:53] Switched to a new branch 'backend_frontend_connection'
+🔄 Syncing 'backend_frontend_connection' with latest main...
+[2025-11-04 06:28:53] [RUN] git fetch origin
+[2025-11-04 06:29:02] [RUN] git merge origin/main
+[2025-11-04 06:29:02] Already up to date.
+[2025-11-04 06:29:02] [RUN] git status
+[2025-11-04 06:29:02] On branch backend_frontend_connection
+[2025-11-04 06:29:02] Changes to be committed:
+[2025-11-04 06:29:02]   (use "git restore --staged <file>..." to unstage)
+[2025-11-04 06:29:02] 	new file:   crm-backend/src/main/java/com/crm/config/SecurityConfig.java
+[2025-11-04 06:29:02] 	new file:   crm-backend/src/main/java/com/crm/config/WebConfig.java
+[2025-11-04 06:29:02] 	new file:   crm-backend/src/main/java/com/crm/controller/HelloController.java
+[2025-11-04 06:29:02] 
+[2025-11-04 06:29:02] Changes not staged for commit:
+[2025-11-04 06:29:02]   (use "git add <file>..." to update what will be committed)
+[2025-11-04 06:29:02]   (use "git restore <file>..." to discard changes in working directory)
+[2025-11-04 06:29:02] 	modified:   crm-backend/.gitattributes
+[2025-11-04 06:29:02] 	modified:   crm-backend/.gitignore
+[2025-11-04 06:29:02] 	modified:   crm-backend/.mvn/wrapper/maven-wrapper.properties
+[2025-11-04 06:29:02] 	modified:   crm-backend/mvnw.cmd
+[2025-11-04 06:29:02] 	modified:   crm-backend/pom.xml
+[2025-11-04 06:29:02] 	modified:   crm-backend/src/main/java/com/crm/CrmBackendApplication.java
+[2025-11-04 06:29:02] 	modified:   crm-backend/src/main/resources/application.properties
+[2025-11-04 06:29:02] 	modified:   crm-backend/src/test/java/com/crm/CrmBackendApplicationTests.java
+[2025-11-04 06:29:02] 	modified:   crm-frontend/.gitignore
+[2025-11-04 06:29:02] 	modified:   crm-frontend/README.md
+[2025-11-04 06:29:02] 	modified:   crm-frontend/package-lock.json
+[2025-11-04 06:29:02] 	modified:   crm-frontend/package.json
+[2025-11-04 06:29:02] 	modified:   crm-frontend/public/index.html
+[2025-11-04 06:29:02] 	modified:   crm-frontend/public/manifest.json
+[2025-11-04 06:29:02] 	modified:   crm-frontend/public/robots.txt
+[2025-11-04 06:29:02] 	modified:   crm-frontend/src/App.css
+[2025-11-04 06:29:02] 	modified:   crm-frontend/src/App.js
+[2025-11-04 06:29:02] 	modified:   crm-frontend/src/App.test.js
+[2025-11-04 06:29:02] 	modified:   crm-frontend/src/index.css
+[2025-11-04 06:29:02] 	modified:   crm-frontend/src/index.js
+[2025-11-04 06:29:02] 	modified:   crm-frontend/src/reportWebVitals.js
+[2025-11-04 06:29:02] 	modified:   crm-frontend/src/setupTests.js
+[2025-11-04 06:29:02] 	modified:   sync.log
+[2025-11-04 06:29:02] 
+[2025-11-04 06:29:07] [RUN] git add .
