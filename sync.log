@@ -303,3 +303,65 @@ Last commit: 9b375c3 - Connecting "backend" with "frontend". (8 seconds ago) <Mu
 [2025-11-04 13:50:29] 	modified:   sync.log
 [2025-11-04 13:50:29] 
 [2025-11-04 13:50:34] [RUN] git add .
+[2025-11-04 13:50:34] warning: in the working copy of 'crm-backend/pom.xml', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 13:50:34] warning: in the working copy of 'crm-backend/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 13:50:34] warning: in the working copy of 'crm-frontend/src/App.js', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 13:50:34] warning: in the working copy of 'sync.log', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 13:52:13] [RUN] git commit -m finished the "backend authentication" configuration. -m Here, we have modified our backend and frontend part for authentication. We have created new files such as
+[2025-11-04 13:52:13] [backend_authentication 526d0a4] finished the "backend authentication" configuration.
+[2025-11-04 13:52:13]  18 files changed, 650 insertions(+), 14 deletions(-)
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/config/JwtProperties.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/controller/AuthController.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/dto/AuthRequest.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/dto/AuthResponse.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/dto/RegisterRequest.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/entity/Company.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/entity/User.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/repository/CompanyRepository.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/repository/UserRepository.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/security/JwtAuthenticationFilter.java
+[2025-11-04 13:52:13]  create mode 100644 crm-backend/src/main/java/com/crm/security/JwtUtil.java
+[2025-11-04 13:52:13]  create mode 100644 crm-frontend/src/Login.js
+[2025-11-04 13:52:13]  create mode 100644 crm-frontend/src/Register.js
+[2025-11-04 13:52:25] [RUN] git push -u origin backend_authentication
+[2025-11-04 13:52:25] remote: 
+[2025-11-04 13:52:25] remote: Create a pull request for 'backend_authentication' on GitHub by visiting:        
+[2025-11-04 13:52:25] remote:      https://github.com/MuzahidurSaim/CRM-327/pull/new/backend_authentication        
+[2025-11-04 13:52:25] remote: 
+[2025-11-04 13:52:25] branch 'backend_authentication' set up to track 'origin/backend_authentication'.
+[2025-11-04 13:52:25] To https://github.com/MuzahidurSaim/CRM-327.git
+[2025-11-04 13:52:25]  * [new branch]      backend_authentication -> backend_authentication
+👉 Now open a Pull Request on GitHub for branch 'backend_authentication' into main.
+Repo: ./CRM-327
+Branch: backend_authentication
+Last commit: 526d0a4 - finished the "backend authentication" configuration. (16 seconds ago) <MuzahidurSaim>
+
+[2025-11-04 14:01:10] [RUN] git checkout main
+[2025-11-04 14:01:10] error: Your local changes to the following files would be overwritten by checkout:
+[2025-11-04 14:01:10] 	crm-frontend/package-lock.json
+[2025-11-04 14:01:10] 	sync.log
+[2025-11-04 14:01:10] Please commit your changes or stash them before you switch branches.
+[2025-11-04 14:01:10] Aborting
+[2025-11-04 14:01:11] [RUN] git pull origin main
+[2025-11-04 14:01:11] error: cannot pull with rebase: You have unstaged changes.
+[2025-11-04 14:01:11] error: Please commit or stash them.
+[2025-11-04 14:02:03] [RUN] git checkout -b install_jwt-decode
+[2025-11-04 14:02:03] Switched to a new branch 'install_jwt-decode'
+🔄 Syncing 'install_jwt-decode' with latest main...
+[2025-11-04 14:02:03] [RUN] git fetch origin
+[2025-11-04 14:02:03] From https://github.com/MuzahidurSaim/CRM-327
+[2025-11-04 14:02:03]    9db9135..30d1fd7  main       -> origin/main
+[2025-11-04 14:02:09] [RUN] git merge origin/main
+[2025-11-04 14:02:09] Updating 526d0a4..30d1fd7
+[2025-11-04 14:02:09] Fast-forward
+[2025-11-04 14:02:10] [RUN] git status
+[2025-11-04 14:02:10] On branch install_jwt-decode
+[2025-11-04 14:02:10] Changes not staged for commit:
+[2025-11-04 14:02:10]   (use "git add <file>..." to update what will be committed)
+[2025-11-04 14:02:10]   (use "git restore <file>..." to discard changes in working directory)
+[2025-11-04 14:02:10] 	modified:   crm-frontend/package-lock.json
+[2025-11-04 14:02:10] 	modified:   crm-frontend/package.json
+[2025-11-04 14:02:10] 	modified:   sync.log
+[2025-11-04 14:02:10] 
+[2025-11-04 14:02:10] no changes added to commit (use "git add" and/or "git commit -a")
+[2025-11-04 14:02:14] [RUN] git add .
