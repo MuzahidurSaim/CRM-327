@@ -193,3 +193,113 @@ Last commit: 9960183 - adding the "PRD" (10 seconds ago) <MuzahidurSaim>
 [2025-11-04 06:29:02] 	modified:   sync.log
 [2025-11-04 06:29:02] 
 [2025-11-04 06:29:07] [RUN] git add .
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-backend/.gitattributes', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-backend/.gitignore', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-backend/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-backend/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-backend/pom.xml', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-backend/src/main/java/com/crm/CrmBackendApplication.java', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-backend/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-backend/src/test/java/com/crm/CrmBackendApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/.gitignore', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/README.md', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/package.json', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/public/index.html', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/src/App.css', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/src/App.js', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/src/index.css', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/src/index.js', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'crm-frontend/src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:29:07] warning: in the working copy of 'sync.log', LF will be replaced by CRLF the next time Git touches it
+[2025-11-04 06:32:29] [RUN] git commit -m Connecting "backend" with "frontend". -m Here, we have added a simple test endpoint and allowed "CORS" in the backend. Then, we call the backend API.
+[2025-11-04 06:32:29] [backend_frontend_connection 9b375c3] Connecting "backend" with "frontend".
+[2025-11-04 06:32:29]  10 files changed, 226 insertions(+), 66 deletions(-)
+[2025-11-04 06:32:29]  create mode 100644 crm-backend/src/main/java/com/crm/config/SecurityConfig.java
+[2025-11-04 06:32:29]  create mode 100644 crm-backend/src/main/java/com/crm/config/WebConfig.java
+[2025-11-04 06:32:29]  create mode 100644 crm-backend/src/main/java/com/crm/controller/HelloController.java
+[2025-11-04 06:32:35] [RUN] git push -u origin backend_frontend_connection
+[2025-11-04 06:32:35] remote: 
+[2025-11-04 06:32:35] remote: Create a pull request for 'backend_frontend_connection' on GitHub by visiting:        
+[2025-11-04 06:32:35] remote:      https://github.com/MuzahidurSaim/CRM-327/pull/new/backend_frontend_connection        
+[2025-11-04 06:32:35] remote: 
+[2025-11-04 06:32:35] branch 'backend_frontend_connection' set up to track 'origin/backend_frontend_connection'.
+[2025-11-04 06:32:35] To https://github.com/MuzahidurSaim/CRM-327.git
+[2025-11-04 06:32:35]  * [new branch]      backend_frontend_connection -> backend_frontend_connection
+👉 Now open a Pull Request on GitHub for branch 'backend_frontend_connection' into main.
+Repo: ./CRM-327
+Branch: backend_frontend_connection
+Last commit: 9b375c3 - Connecting "backend" with "frontend". (8 seconds ago) <MuzahidurSaim>
+
+[2025-11-04 11:48:21] [RUN] git checkout main
+[2025-11-04 11:48:21] error: Your local changes to the following files would be overwritten by checkout:
+[2025-11-04 11:48:21] 	sync.log
+[2025-11-04 11:48:21] Please commit your changes or stash them before you switch branches.
+[2025-11-04 11:48:21] Aborting
+[2025-11-04 11:48:22] [RUN] git pull origin main
+[2025-11-04 11:48:22] error: cannot pull with rebase: You have unstaged changes.
+[2025-11-04 11:48:22] error: Please commit or stash them.
+👋 Exiting script as requested.
+[2025-11-04 13:27:11] [RUN] git checkout main
+[2025-11-04 13:27:11] error: Your local changes to the following files would be overwritten by checkout:
+[2025-11-04 13:27:11] 	sync.log
+[2025-11-04 13:27:11] Please commit your changes or stash them before you switch branches.
+[2025-11-04 13:27:11] Aborting
+[2025-11-04 13:27:12] [RUN] git pull origin main
+[2025-11-04 13:27:12] error: cannot pull with rebase: You have unstaged changes.
+[2025-11-04 13:27:12] error: Please commit or stash them.
+👋 Exiting script as requested.
+[2025-11-04 13:49:57] [RUN] git checkout main
+[2025-11-04 13:49:57] error: Your local changes to the following files would be overwritten by checkout:
+[2025-11-04 13:49:57] 	crm-backend/pom.xml
+[2025-11-04 13:49:57] 	crm-backend/src/main/java/com/crm/config/SecurityConfig.java
+[2025-11-04 13:49:57] 	crm-backend/src/main/resources/application.properties
+[2025-11-04 13:49:57] 	crm-frontend/src/App.js
+[2025-11-04 13:49:57] 	sync.log
+[2025-11-04 13:49:57] Please commit your changes or stash them before you switch branches.
+[2025-11-04 13:49:57] Aborting
+[2025-11-04 13:49:58] [RUN] git pull origin main
+[2025-11-04 13:49:58] error: cannot pull with rebase: You have unstaged changes.
+[2025-11-04 13:49:58] error: additionally, your index contains uncommitted changes.
+[2025-11-04 13:49:58] error: Please commit or stash them.
+[2025-11-04 13:50:22] [RUN] git checkout -b backend_authentication
+[2025-11-04 13:50:22] Switched to a new branch 'backend_authentication'
+🔄 Syncing 'backend_authentication' with latest main...
+[2025-11-04 13:50:23] [RUN] git fetch origin
+[2025-11-04 13:50:23] From https://github.com/MuzahidurSaim/CRM-327
+[2025-11-04 13:50:23]    bdc178e..9db9135  main       -> origin/main
+[2025-11-04 13:50:28] [RUN] git merge origin/main
+[2025-11-04 13:50:28] Updating 9b375c3..9db9135
+[2025-11-04 13:50:28] Fast-forward
+[2025-11-04 13:50:29] [RUN] git status
+[2025-11-04 13:50:29] On branch backend_authentication
+[2025-11-04 13:50:29] Changes to be committed:
+[2025-11-04 13:50:29]   (use "git restore --staged <file>..." to unstage)
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/config/JwtProperties.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/controller/AuthController.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/dto/AuthRequest.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/dto/AuthResponse.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/dto/RegisterRequest.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/entity/Company.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/entity/User.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/repository/CompanyRepository.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/repository/UserRepository.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/security/JwtAuthenticationFilter.java
+[2025-11-04 13:50:29] 	new file:   crm-backend/src/main/java/com/crm/security/JwtUtil.java
+[2025-11-04 13:50:29] 	new file:   crm-frontend/src/Login.js
+[2025-11-04 13:50:29] 	new file:   crm-frontend/src/Register.js
+[2025-11-04 13:50:29] 
+[2025-11-04 13:50:29] Changes not staged for commit:
+[2025-11-04 13:50:29]   (use "git add <file>..." to update what will be committed)
+[2025-11-04 13:50:29]   (use "git restore <file>..." to discard changes in working directory)
+[2025-11-04 13:50:29] 	modified:   crm-backend/pom.xml
+[2025-11-04 13:50:29] 	modified:   crm-backend/src/main/java/com/crm/config/SecurityConfig.java
+[2025-11-04 13:50:29] 	modified:   crm-backend/src/main/resources/application.properties
+[2025-11-04 13:50:29] 	modified:   crm-frontend/src/App.js
+[2025-11-04 13:50:29] 	modified:   sync.log
+[2025-11-04 13:50:29] 
+[2025-11-04 13:50:34] [RUN] git add .
